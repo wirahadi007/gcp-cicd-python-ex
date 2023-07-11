@@ -75,7 +75,7 @@ metadata:
     networking.gke.io/managed-certificates: wooless
 spec:
   rules:
-    - host: app.whalle.com
+    - host: habel-staging.halobelanja.id
       http:
         paths:
         - path: /*
@@ -94,4 +94,4 @@ metadata:
   namespace: production
 spec:
   domains:
-    - app.whalle.com
+    - habel-staging.halobelanja.id
